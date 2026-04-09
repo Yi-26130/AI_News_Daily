@@ -1,0 +1,6 @@
+langgraph
+langchain-openai
+chromadb
+pydantic
+requests
+dashscope
