@@ -41,4 +41,5 @@ jobs:
         DASHSCOPE_API_KEY: ${{ secrets.DASHSCOPE_API_KEY }}
         WECOM_WEBHOOK: ${{ secrets.WECOM_WEBHOOK }}
       run: |
+        cd AI_News_Agency
         python main.py
