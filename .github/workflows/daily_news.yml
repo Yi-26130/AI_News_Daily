@@ -24,7 +24,7 @@ jobs:
     - name: 3. 安装项目依赖
       run: |
         python -m pip install --upgrade pip
-        pip install -r requirements.txt
+        pip install langgraph langchain-openai chromadb pydantic requests dashscope
 
     - name: 4. 恢复/保存本地向量数据库缓存
       # 极客操作：每次跑完把 ChromaDB 存下来，第二天再加载，实现历史记忆！
