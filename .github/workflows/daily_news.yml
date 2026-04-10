@@ -39,6 +39,7 @@ jobs:
       env:
         # 从你的云端保险柜中提取密钥
         DASHSCOPE_API_KEY: ${{ secrets.DASHSCOPE_API_KEY }}
+        OPENAI_API_KEY: ${{ secrets.DASHSCOPE_API_KEY }}
         WECOM_WEBHOOK: ${{ secrets.WECOM_WEBHOOK }}
       run: |
         cd AI_News_Agency
