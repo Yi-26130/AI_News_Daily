@@ -13,7 +13,7 @@ logger = logging.getLogger("Init_RAG_DB")
 
 # ✨✨✨ 终极修复：强行塞入通行证 ✨✨✨
 # 请把下面这行里的 sk-... 替换成你真实的阿里云 API_KEY！
-dashscope.api_key = os.getenv("DASHSCOPE_API_KEY", "sk-6f327067cdc641c0839321728ef0d10b")
+dashscope.api_key = os.getenv("DASHSCOPE_API_KEY", "")
 
 
 # ================= 1. 阿里云 Embedding 适配器 (防弹升级版) =================
